@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #102030;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.item-1{
+    display: flex;
+    gap: 10px;
+    
+}
+.item-2{
+    display: flex;
+    gap: 10px;
+}
+
+.item-1>nav>a{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.item-2>nav>a{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.item-1>nav>select>a{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.item-1>select>a{
+    border: none;
+    padding: 100px;
+
+
+
+}
